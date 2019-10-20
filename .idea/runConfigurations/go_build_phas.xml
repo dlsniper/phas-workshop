@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="go build phas" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+    <module name="phas - workshop" />
+    <working_directory value="$PROJECT_DIR$" />
+    <envs>
+      <env name="CGO_CFLAGS" value="-IC:\Users\flori\GoLandProjects\phas\lib" />
+      <env name="CGO_LDFLAGS" value="-LC:\Users\flori\GoLandProjects\phas\lib\windows" />
+      <env name="PHAS_OS" value="windows" />
+      <env name="GOOGLE_APPLICATION_CREDENTIALS" value="C:\Users\florin\phas-gcp-key.json" />
+      <env name="GCP_PROJECT_ID" value="" />
+    </envs>
+    <kind value="PACKAGE" />
+    <filePath value="$PROJECT_DIR$/main.go" />
+    <package value="phas" />
+    <directory value="$PROJECT_DIR$/" />
+    <method v="2" />
+  </configuration>
+</component>
